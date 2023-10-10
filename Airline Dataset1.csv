@@ -1,210 +1,210 @@
-Gender,Airport_Country_Code,Country_Name,Airport_Continent,Arrival_Airport,Country,Latitude,Longitude,Name
-Female,US,United States,NAM,CXF,AD,42.546245,1.601554,Andorra
-Male,CA,Canada,NAM,YCO,AE,23.424076,53.847818,United Arab Emirates
-Male,FR,France,EU,GNB,AF,33.93911,67.709953,Afghanistan
-Female,CA,Canada,NAM,YND,AG,17.060816,-61.796428,Antigua and Barbuda
-Male,US,United States,NAM,SEE,AI,18.220554,-63.068615,Anguilla
-Female,BR,Brazil,SAM,LEC,AL,41.153332,20.168331,Albania
-Male,GB,United Kingdom,EU,QFO,AM,40.069099,45.038189,Armenia
-Male,BR,Brazil,SAM,STM,AN,12.226079,-69.060087,Netherlands Antilles
-Female,IT,Italy,EU,VCE,AO,-11.202692,17.873887,Angola
-Male,CA,Canada,NAM,YVG,AQ,-75.250973,-0.071389,Antarctica
-Male,MX,Mexico,NAM,NCG,AR,-38.416097,-63.616672,Argentina
-Male,PA,Panama,NAM,SYP,AS,-14.270972,-170.132217,American Samoa
-Female,PK,Pakistan,AS,LRG,AT,47.516231,14.550072,Austria
-Female,AU,Australia,OC,CUG,AU,-25.274398,133.775136,Australia
-Female,US,United States,NAM,FAM,AW,12.52111,-69.968338,Aruba
-Female,ZA,South Africa,AF,OUH,AZ,40.143105,47.576927,Azerbaijan
-Female,VE,"Venezuela, Bolivarian Republic of",SAM,ZRZ,BA,43.915886,17.679076,Bosnia and Herzegovina
-Male,CN,China,AS,ENH,BB,13.193887,-59.543198,Barbados
-Female,CA,Canada,NAM,YTH,BD,23.684994,90.356331,Bangladesh
-Male,CN,China,AS,KWL,BE,50.503887,4.469936,Belgium
-Male,US,United States,NAM,CSE,BF,12.238333,-1.561593,Burkina Faso
-Female,CA,Canada,NAM,YIF,BG,42.733883,25.48583,Bulgaria
-Female,MG,Madagascar,AF,WPB,BH,25.930414,50.637772,Bahrain
-Female,CO,Colombia,SAM,HTZ,BI,-3.373056,29.918886,Burundi
-Male,US,United States,NAM,EKI,BJ,9.30769,2.315834,Benin
-Female,MR,Mauritania,AF,TMD,BM,32.321384,-64.75737,Bermuda
-Female,MM,Myanmar,AS,NYU,BN,4.535277,114.727669,Brunei
-Female,US,United States,NAM,BRW,BO,-16.290154,-63.588653,Bolivia
-Female,CG,Congo,AF,GMM,BR,-14.235004,-51.92528,Brazil
-Male,ZM,Zambia,AF,ZKB,BS,25.03428,-77.39628,Bahamas
-Female,WS,Samoa,OC,APW,BT,27.514162,90.433601,Bhutan
-Female,CA,Canada,NAM,YGE,BV,-54.423199,3.413194,Bouvet Island
-Male,NC,New Caledonia,OC,HLU,BW,-22.328474,24.684866,Botswana
-Female,GQ,Equatorial Guinea,AF,SSG,BY,53.709807,27.953389,Belarus
-Female,US,United States,NAM,AYZ,BZ,17.189877,-88.49765,Belize
-Male,PG,Papua New Guinea,OC,GOC,CA,56.130366,-106.346771,Canada
-Male,CA,Canada,NAM,YBL,CC,-12.164165,96.870956,Cocos [Keeling] Islands
-Male,PG,Papua New Guinea,OC,MJJ,CD,-4.038333,21.758664,Congo [DRC]
-Female,AU,Australia,OC,BSJ,CF,6.611111,20.939444,Central African Republic
-Female,BS,Bahamas,NAM,CRI,CG,-0.228021,15.827659,Congo [Republic]
-Male,AU,Australia,OC,XML,CH,46.818188,8.227512,Switzerland
-Male,US,United States,NAM,CVG,CI,7.539989,-5.54708,C?te d'Ivoire
-Female,ID,Indonesia,AS,DOB,CK,-21.236736,-159.777671,Cook Islands
-Male,US,United States,NAM,MQT,CL,-35.675147,-71.542969,Chile
-Male,RU,Russian Federation,AS,MJZ,CM,7.369722,12.354722,Cameroon
-Male,US,United States,NAM,SVE,CN,35.86166,104.195397,China
-Female,US,United States,NAM,ICT,CO,4.570868,-74.297333,Colombia
-Male,PG,Papua New Guinea,OC,KVG,CR,9.748917,-83.753428,Costa Rica
-Male,BR,Brazil,SAM,APQ,CU,21.521757,-77.781167,Cuba
-Male,AU,Australia,OC,PLO,CV,16.002082,-24.013197,Cape Verde
-Male,BO,"Bolivia, Plurinational State of",SAM,RBO,CX,-10.447525,105.690449,Christmas Island
-Female,CA,Canada,NAM,YGP,CY,35.126413,33.429859,Cyprus
-Female,US,United States,NAM,LKE,CZ,49.817492,15.472962,Czech Republic
-Male,AU,Australia,OC,DYM,DE,51.165691,10.451526,Germany
-Female,CN,China,AS,JUZ,DJ,11.825138,42.590275,Djibouti
-Female,US,United States,NAM,TYS,DK,56.26392,9.501785,Denmark
-Female,KE,Kenya,AF,JJM,DM,15.414999,-61.370976,Dominica
-Female,AU,Australia,OC,BDD,DO,18.735693,-70.162651,Dominican Republic
-Female,MM,Myanmar,AS,PBU,DZ,28.033886,1.659626,Algeria
-Male,BF,Burkina Faso,AF,OUG,EC,-1.831239,-78.183406,Ecuador
-Male,CA,Canada,NAM,ZTS,EE,58.595272,25.013607,Estonia
-Female,US,United States,NAM,AEL,EG,26.820553,30.802498,Egypt
-Female,US,United States,NAM,WMO,EH,24.215527,-12.885834,Western Sahara
-Male,US,United States,NAM,RSW,ER,15.179384,39.782334,Eritrea
-Female,AU,Australia,OC,ZGL,ES,40.463667,-3.74922,Spain
-Female,PG,Papua New Guinea,OC,DOI,ET,9.145,40.489673,Ethiopia
-Female,CN,China,AS,NKG,FI,61.92411,25.748151,Finland
-Female,GT,Guatemala,NAM,FRS,FJ,-16.578193,179.414413,Fiji
-Female,TW,"Taiwan, Province of China",AS,LZN,FK,-51.796253,-59.523613,Falkland Islands [Islas Malvinas]
-Male,IN,India,AS,BBI,FM,7.425554,150.550812,Micronesia
-Male,MR,Mauritania,AF,THT,FO,61.892635,-6.911806,Faroe Islands
-Male,ID,Indonesia,AS,RUF,FR,46.227638,2.213749,France
-Male,BR,Brazil,SAM,0,GA,-0.803689,11.609444,Gabon
-Female,NO,Norway,EU,VDS,GB,55.378051,-3.435973,United Kingdom
-Female,ID,Indonesia,AS,FKQ,GD,12.262776,-61.604171,Grenada
-Male,CR,Costa Rica,NAM,PBP,GE,42.315407,43.356892,Georgia
-Female,PT,Portugal,EU,PDL,GF,3.933889,-53.125782,French Guiana
-Female,LK,Sri Lanka,AS,BTC,GG,49.465691,-2.585278,Guernsey
-Male,US,United States,NAM,MBY,GH,7.946527,-1.023194,Ghana
-Male,US,United States,NAM,LIH,GI,36.137741,-5.345374,Gibraltar
-Female,US,United States,NAM,SUS,GL,71.706936,-42.604303,Greenland
-Female,CA,Canada,NAM,ZTS,GM,13.443182,-15.310139,Gambia
-Male,PF,French Polynesia,OC,UOA,GN,9.945587,-9.696645,Guinea
-Male,US,United States,NAM,DEN,GP,16.995971,-62.067641,Guadeloupe
-Female,BF,Burkina Faso,AF,ARL,GQ,1.650801,10.267895,Equatorial Guinea
-Male,US,United States,NAM,SGF,GR,39.074208,21.824312,Greece
-Male,MZ,Mozambique,AF,NTC,GS,-54.429579,-36.587909,South Georgia and the South Sandwich Islands
-Female,CA,Canada,NAM,YMB,GT,15.783471,-90.230759,Guatemala
-Male,US,United States,NAM,NRS,GU,13.444304,144.793731,Guam
-Female,DZ,Algeria,AF,INF,GW,11.803749,-15.180413,Guinea-Bissau
-Male,RU,Russian Federation,AS,ADH,GY,4.860416,-58.93018,Guyana
-Male,NP,Nepal,AS,BHP,GZ,31.354676,34.308825,Gaza Strip
-Female,BG,Bulgaria,EU,GOZ,HK,22.396428,114.109497,Hong Kong
-Female,US,United States,NAM,PIB,HM,-53.08181,73.504158,Heard Island and McDonald Islands
-Male,RU,Russian Federation,EU,NAL,HN,15.199999,-86.241905,Honduras
-Female,US,United States,NAM,VNC,HR,45.1,15.2,Croatia
-Female,ZA,South Africa,AF,TDT,HT,18.971187,-72.285215,Haiti
-Female,IR,"Iran, Islamic Republic of",AS,LRR,HU,47.162494,19.503304,Hungary
-Male,US,United States,NAM,SWF,ID,-0.789275,113.921327,Indonesia
-Female,IT,Italy,EU,GOA,IE,53.41291,-8.24389,Ireland
-Male,PG,Papua New Guinea,OC,BUA,IL,31.046051,34.851612,Israel
-Male,HN,Honduras,NAM,RUY,IM,54.236107,-4.548056,Isle of Man
-Male,US,United States,NAM,AYS,IN,20.593684,78.96288,India
-Female,SD,Sudan,AF,NUD,IO,-6.343194,71.876519,British Indian Ocean Territory
-Female,US,United States,NAM,HOT,IQ,33.223191,43.679291,Iraq
-Male,JP,Japan,AS,TRA,IR,32.427908,53.688046,Iran
-Female,JP,Japan,AS,AXT,IS,64.963051,-19.020835,Iceland
-Male,PG,Papua New Guinea,OC,HAZ,IT,41.87194,12.56738,Italy
-Male,PG,Papua New Guinea,OC,TPI,JE,49.214439,-2.13125,Jersey
-Female,DO,Dominican Republic,NAM,LRM,JM,18.109581,-77.297508,Jamaica
-Male,US,United States,NAM,OWA,JO,30.585164,36.238414,Jordan
-Female,CN,China,AS,HDG,JP,36.204824,138.252924,Japan
-Male,PG,Papua New Guinea,OC,MMV,KE,-0.023559,37.906193,Kenya
-Male,IS,Iceland,EU,FAS,KG,41.20438,74.766098,Kyrgyzstan
-Male,PG,Papua New Guinea,OC,OSE,KH,12.565679,104.990963,Cambodia
-Female,CA,Canada,NAM,ZFM,KI,-3.370417,-168.734039,Kiribati
-Male,GB,United Kingdom,EU,NCL,KM,-11.875001,43.872219,Comoros
-Male,CN,China,AS,GHN,KN,17.357822,-62.782998,Saint Kitts and Nevis
-Female,PG,Papua New Guinea,OC,PUI,KP,40.339852,127.510093,North Korea
-Male,PG,Papua New Guinea,OC,LSJ,KR,35.907757,127.766922,South Korea
-Male,CN,China,AS,WUT,KW,29.31166,47.481766,Kuwait
-Male,IR,"Iran, Islamic Republic of",AS,BDH,KY,19.513469,-80.566956,Cayman Islands
-Female,BR,Brazil,SAM,CQA,KZ,48.019573,66.923684,Kazakhstan
-Female,VN,Viet Nam,AS,CAH,LA,19.85627,102.495496,Laos
-Male,IN,India,AS,TEI,LB,33.854721,35.862285,Lebanon
-Female,RU,Russian Federation,EU,KKQ,LC,13.909444,-60.978893,Saint Lucia
-Female,BR,Brazil,SAM,MEU,LI,47.166,9.555373,Liechtenstein
-Female,PG,Papua New Guinea,OC,AWB,LK,7.873054,80.771797,Sri Lanka
-Female,SY,Syrian Arab Republic,AS,SOR,LR,6.428055,-9.429499,Liberia
-Female,RO,Romania,EU,SBZ,LS,-29.609988,28.233608,Lesotho
-Female,US,United States,NAM,PNU,LT,55.169438,23.881275,Lithuania
-Male,AU,Australia,OC,CUY,LU,49.815273,6.129583,Luxembourg
-Female,IR,"Iran, Islamic Republic of",AS,IIL,LV,56.879635,24.603189,Latvia
-Female,BR,Brazil,SAM,0,LY,26.3351,17.228331,Libya
-Male,AU,Australia,OC,HLV,MA,31.791702,-7.09262,Morocco
-Female,US,United States,NAM,DHT,MC,43.750298,7.412841,Monaco
-Female,AU,Australia,OC,XMY,MD,47.411631,28.369885,Moldova
-Male,AU,Australia,OC,SGO,ME,42.708678,19.37439,Montenegro
-Female,US,United States,NAM,DAL,MG,-18.766947,46.869107,Madagascar
-Male,KY,Cayman Islands,NAM,CYB,MH,7.131474,171.184478,Marshall Islands
-Female,DE,Germany,EU,WID,MK,41.608635,21.745275,Macedonia [FYROM]
-Female,MX,Mexico,NAM,REX,ML,17.570692,-3.996166,Mali
-Female,PG,Papua New Guinea,OC,WTT,MM,21.913965,95.956223,Myanmar [Burma]
-Female,BG,Bulgaria,EU,SOF,MN,46.862496,103.846656,Mongolia
-Male,BR,Brazil,SAM,GMS,MO,22.198745,113.543873,Macau
-Male,US,United States,NAM,OWK,MP,17.33083,145.38469,Northern Mariana Islands
-Female,US,United States,NAM,LSF,MQ,14.641528,-61.024174,Martinique
-Male,RU,Russian Federation,EU,UMS,MR,21.00789,-10.940835,Mauritania
-Male,AU,Australia,OC,DBY,MS,16.742498,-62.187366,Montserrat
-Female,SK,Slovakia,EU,LUE,MT,35.937496,14.375416,Malta
-Female,NP,Nepal,AS,MEY,MU,-20.348404,57.552152,Mauritius
-Female,US,United States,NAM,NIB,MV,3.202778,73.22068,Maldives
-Male,US,United States,NAM,BJI,MW,-13.254308,34.301525,Malawi
-Male,ID,Indonesia,AS,BMU,MX,23.634501,-102.552784,Mexico
-Male,DE,Germany,EU,ZMG,MY,4.210484,101.975766,Malaysia
-Female,DZ,Algeria,AF,QDJ,MZ,-18.665695,35.529562,Mozambique
-Male,AU,Australia,OC,GTE,NA,-22.95764,18.49041,Namibia
-Male,US,United States,NAM,SMN,NC,-20.904305,165.618042,New Caledonia
-Female,PG,Papua New Guinea,OC,GVI,NE,17.607789,8.081666,Niger
-Male,US,United States,NAM,ENA,NF,-29.040835,167.954712,Norfolk Island
-Male,AU,Australia,OC,MGV,NG,9.081999,8.675277,Nigeria
-Female,US,United States,NAM,SPI,NI,12.865416,-85.207229,Nicaragua
-Female,IR,"Iran, Islamic Republic of",AS,AZD,NL,52.132633,5.291266,Netherlands
-Female,ZA,South Africa,AF,ASS,NO,60.472024,8.468946,Norway
-Male,PG,Papua New Guinea,OC,BWP,NP,28.394857,84.124008,Nepal
-Male,BW,Botswana,AF,JWA,NR,-0.522778,166.931503,Nauru
-Male,SA,Saudi Arabia,AS,TUI,NU,-19.054445,-169.867233,Niue
-Male,EC,Ecuador,SAM,LGQ,NZ,-40.900557,174.885971,New Zealand
-Male,US,United States,NAM,BCS,OM,21.512583,55.923255,Oman
-Female,PG,Papua New Guinea,OC,WNU,PA,8.537981,-80.782127,Panama
-Female,US,United States,NAM,AHT,PE,-9.189967,-75.015152,Peru
-Male,BR,Brazil,SAM,AQA,PF,-17.679742,-149.406843,French Polynesia
-Male,US,United States,NAM,AZA,PG,-6.314993,143.95555,Papua New Guinea
-Male,CO,Colombia,SAM,ORC,PH,12.879721,121.774017,Philippines
-Female,IN,India,AS,GOP,PK,30.375321,69.345116,Pakistan
-Female,US,United States,NAM,VAD,PL,51.919438,19.145136,Poland
-Male,ID,Indonesia,AS,SAE,PM,46.941936,-56.27111,Saint Pierre and Miquelon
-Male,SA,Saudi Arabia,AS,QJB,PN,-24.703615,-127.439308,Pitcairn Islands
-Female,US,United States,NAM,TRH,PR,18.220833,-66.590149,Puerto Rico
-Female,CM,Cameroon,AF,KBI,PS,31.952162,35.233154,Palestinian Territories
-Female,CA,Canada,NAM,YBI,PT,39.399872,-8.224454,Portugal
-Male,MM,Myanmar,AS,PKK,PW,7.51498,134.58252,Palau
-Female,MN,Mongolia,AS,HVD,PY,-23.442503,-58.443832,Paraguay
-Female,DE,Germany,EU,RLG,QA,25.354826,51.183884,Qatar
-Male,DZ,Algeria,AF,MZW,RE,-21.115141,55.536384,R??union
-Male,CA,Canada,NAM,YSN,RO,45.943161,24.96676,Romania
-Male,US,United States,NAM,BPA,RS,44.016521,21.005859,Serbia
-Male,DM,Dominica,NAM,DCF,RU,61.52401,105.318756,Russia
-Female,ID,Indonesia,AS,TTE,RW,-1.940278,29.873888,Rwanda
-Male,CO,Colombia,SAM,BOG,SA,23.885942,45.079162,Saudi Arabia
-Male,PY,Paraguay,SAM,OLK,SB,-9.64571,160.156194,Solomon Islands
-Male,CA,Canada,NAM,YGQ,SC,-4.679574,55.491977,Seychelles
-Male,IL,Israel,AS,MTZ,SD,12.862807,30.217636,Sudan
-Female,CA,Canada,NAM,YBR,SE,60.128161,18.643501,Sweden
-Male,HR,Croatia,EU,RJK,SG,1.352083,103.819836,Singapore
-Female,US,United States,NAM,LEB,SH,-24.143474,-10.030696,Saint Helena
-Male,AR,Argentina,SAM,VCF,SI,46.151241,14.995463,Slovenia
-Male,VU,Vanuatu,OC,FTA,SJ,77.553604,23.670272,Svalbard and Jan Mayen
-Male,AU,Australia,OC,NYN,SK,48.669026,19.699024,Slovakia
-Male,GT,Guatemala,NAM,TKM,SL,8.460555,-11.779889,Sierra Leone
-Male,RU,Russian Federation,EU,TLK,SM,43.94236,12.457777,San Marino
-Male,CA,Canada,NAM,YEY,SN,14.497401,-14.452362,Senegal
-Female,US,United States,NAM,BGD,SO,5.152149,46.199616,Somalia
-Male,NZ,New Zealand,OC,KAT,SR,3.919305,-56.027783,Suriname
-Female,US,United States,NAM,OKM,ST,0.18636,6.613081,S?o Tom?? and Pr??ncipe
-Female,AU,Australia,OC,KAX,SV,13.794185,-88.89653,El Salvador
-Male,AU,Australia,OC,MXU,SY,34.802075,38.996815,Syria
-Male,US,United States,NAM,EKI,SZ,-26.522503,31.465866,Swaziland
-Female,HR,Croatia,EU,OSI,TC,21.694025,-71.797928,Turks and Caicos Islands
+Gender,Airport_Country_Code,Country_Name,Airport_Continent,Arrival_Airport,Country,Latitude,Longitude,Name,Adjusted Passenger Count
+Female,US,United States,NAM,CXF,AD,42.546245,1.601554,Andorra,27271
+Male,CA,Canada,NAM,YCO,AE,23.424076,53.847818,United Arab Emirates,29131
+Male,FR,France,EU,GNB,AF,33.93911,67.709953,Afghanistan,10830
+Female,CA,Canada,NAM,YND,AG,17.060816,-61.796428,Antigua and Barbuda,35156
+Male,US,United States,NAM,SEE,AI,18.220554,-63.068615,Anguilla,34090
+Female,BR,Brazil,SAM,LEC,AL,41.153332,20.168331,Albania,6263
+Male,GB,United Kingdom,EU,QFO,AM,40.069099,45.038189,Armenia,5500
+Male,BR,Brazil,SAM,STM,AN,12.226079,-69.060087,Netherlands Antilles,12050
+Female,IT,Italy,EU,VCE,AO,-11.202692,17.873887,Angola,11638
+Male,CA,Canada,NAM,YVG,AQ,-75.250973,-0.071389,Antarctica,4998
+Male,MX,Mexico,NAM,NCG,AR,-38.416097,-63.616672,Argentina,4962
+Male,PA,Panama,NAM,SYP,AS,-14.270972,-170.132217,American Samoa,8055
+Female,PK,Pakistan,AS,LRG,AT,47.516231,14.550072,Austria,7984
+Female,AU,Australia,OC,CUG,AU,-25.274398,133.775136,Australia,36641
+Female,US,United States,NAM,FAM,AW,12.52111,-69.968338,Aruba,39379
+Female,ZA,South Africa,AF,OUH,AZ,40.143105,47.576927,Azerbaijan,7356
+Female,VE,"Venezuela, Bolivarian Republic of",SAM,ZRZ,BA,43.915886,17.679076,Bosnia and Herzegovina,7977
+Male,CN,China,AS,ENH,BB,13.193887,-59.543198,Barbados,8837
+Female,CA,Canada,NAM,YTH,BD,23.684994,90.356331,Bangladesh,6969
+Male,CN,China,AS,KWL,BE,50.503887,4.469936,Belgium,10046
+Male,US,United States,NAM,CSE,BF,12.238333,-1.561593,Burkina Faso,4532
+Female,CA,Canada,NAM,YIF,BG,42.733883,25.48583,Bulgaria,6545
+Female,MG,Madagascar,AF,WPB,BH,25.930414,50.637772,Bahrain,6094
+Female,CO,Colombia,SAM,HTZ,BI,-3.373056,29.918886,Burundi,166577
+Male,US,United States,NAM,EKI,BJ,9.30769,2.315834,Benin,160890
+Female,MR,Mauritania,AF,TMD,BM,32.321384,-64.75737,Bermuda,5493
+Female,MM,Myanmar,AS,NYU,BN,4.535277,114.727669,Brunei,5213
+Female,US,United States,NAM,BRW,BO,-16.290154,-63.588653,Bolivia,5041
+Female,CG,Congo,AF,GMM,BR,-14.235004,-51.92528,Brazil,4744
+Male,ZM,Zambia,AF,ZKB,BS,25.03428,-77.39628,Bahamas,1552
+Female,WS,Samoa,OC,APW,BT,27.514162,90.433601,Bhutan,1484
+Female,CA,Canada,NAM,YGE,BV,-54.423199,3.413194,Bouvet Island,325
+Male,NC,New Caledonia,OC,HLU,BW,-22.328474,24.684866,Botswana,545
+Female,GQ,Equatorial Guinea,AF,SSG,BY,53.709807,27.953389,Belarus,20632
+Female,US,United States,NAM,AYZ,BZ,17.189877,-88.49765,Belize,21686
+Male,PG,Papua New Guinea,OC,GOC,CA,56.130366,-106.346771,Canada,11010
+Male,CA,Canada,NAM,YBL,CC,-12.164165,96.870956,Cocos [Keeling] Islands,9628
+Male,PG,Papua New Guinea,OC,MJJ,CD,-4.038333,21.758664,Congo [DRC],13638
+Female,AU,Australia,OC,BSJ,CF,6.611111,20.939444,Central African Republic,11255
+Female,BS,Bahamas,NAM,CRI,CG,-0.228021,15.827659,Congo [Republic],97510
+Male,AU,Australia,OC,XML,CH,46.818188,8.227512,Switzerland,93791
+Male,US,United States,NAM,CVG,CI,7.539989,-5.54708,C?te d'Ivoire,14142
+Female,ID,Indonesia,AS,DOB,CK,-21.236736,-159.777671,Cook Islands,12132
+Male,US,United States,NAM,MQT,CL,-35.675147,-71.542969,Chile,19234
+Male,RU,Russian Federation,AS,MJZ,CM,7.369722,12.354722,Cameroon,18368
+Male,US,United States,NAM,SVE,CN,35.86166,104.195397,China,7579
+Female,US,United States,NAM,ICT,CO,4.570868,-74.297333,Colombia,7658
+Male,PG,Papua New Guinea,OC,KVG,CR,9.748917,-83.753428,Costa Rica,5284
+Male,BR,Brazil,SAM,APQ,CU,21.521757,-77.781167,Cuba,5257
+Male,AU,Australia,OC,PLO,CV,16.002082,-24.013197,Cape Verde,4540
+Male,BO,"Bolivia, Plurinational State of",SAM,RBO,CX,-10.447525,105.690449,Christmas Island,4341
+Female,CA,Canada,NAM,YGP,CY,35.126413,33.429859,Cyprus,10843
+Female,US,United States,NAM,LKE,CZ,49.817492,15.472962,Czech Republic,10967
+Male,AU,Australia,OC,DYM,DE,51.165691,10.451526,Germany,9195
+Female,CN,China,AS,JUZ,DJ,11.825138,42.590275,Djibouti,9086
+Female,US,United States,NAM,TYS,DK,56.26392,9.501785,Denmark,9978
+Female,KE,Kenya,AF,JJM,DM,15.414999,-61.370976,Dominica,9587
+Female,AU,Australia,OC,BDD,DO,18.735693,-70.162651,Dominican Republic,6153
+Female,MM,Myanmar,AS,PBU,DZ,28.033886,1.659626,Algeria,5646
+Male,BF,Burkina Faso,AF,OUG,EC,-1.831239,-78.183406,Ecuador,22389
+Male,CA,Canada,NAM,ZTS,EE,58.595272,25.013607,Estonia,20511
+Female,US,United States,NAM,AEL,EG,26.820553,30.802498,Egypt,2636
+Female,US,United States,NAM,WMO,EH,24.215527,-12.885834,Western Sahara,2535
+Male,US,United States,NAM,RSW,ER,15.179384,39.782334,Eritrea,7751
+Female,AU,Australia,OC,ZGL,ES,40.463667,-3.74922,Spain,7845
+Female,PG,Papua New Guinea,OC,DOI,ET,9.145,40.489673,Ethiopia,1797
+Female,CN,China,AS,NKG,FI,61.92411,25.748151,Finland,3238
+Female,GT,Guatemala,NAM,FRS,FJ,-16.578193,179.414413,Fiji,64231
+Female,TW,"Taiwan, Province of China",AS,LZN,FK,-51.796253,-59.523613,Falkland Islands [Islas Malvinas],62049
+Male,IN,India,AS,BBI,FM,7.425554,150.550812,Micronesia,7229
+Male,MR,Mauritania,AF,THT,FO,61.892635,-6.911806,Faroe Islands,6554
+Male,ID,Indonesia,AS,RUF,FR,46.227638,2.213749,France,12828
+Male,BR,Brazil,SAM,0,GA,-0.803689,11.609444,Gabon,10269
+Female,NO,Norway,EU,VDS,GB,55.378051,-3.435973,United Kingdom,19211
+Female,ID,Indonesia,AS,FKQ,GD,12.262776,-61.604171,Grenada,17462
+Male,CR,Costa Rica,NAM,PBP,GE,42.315407,43.356892,Georgia,7262
+Female,PT,Portugal,EU,PDL,GF,3.933889,-53.125782,French Guiana,6586
+Female,LK,Sri Lanka,AS,BTC,GG,49.465691,-2.585278,Guernsey,103279
+Male,US,United States,NAM,MBY,GH,7.946527,-1.023194,Ghana,102023
+Male,US,United States,NAM,LIH,GI,36.137741,-5.345374,Gibraltar,3688
+Female,US,United States,NAM,SUS,GL,71.706936,-42.604303,Greenland,3633
+Female,CA,Canada,NAM,ZTS,GM,13.443182,-15.310139,Gambia,4827
+Male,PF,French Polynesia,OC,UOA,GN,9.945587,-9.696645,Guinea,4784
+Male,US,United States,NAM,DEN,GP,16.995971,-62.067641,Guadeloupe,6324
+Female,BF,Burkina Faso,AF,ARL,GQ,1.650801,10.267895,Equatorial Guinea,7031
+Male,US,United States,NAM,SGF,GR,39.074208,21.824312,Greece,46042
+Male,MZ,Mozambique,AF,NTC,GS,-54.429579,-36.587909,South Georgia and the South Sandwich Islands,45553
+Female,CA,Canada,NAM,YMB,GT,15.783471,-90.230759,Guatemala,38951
+Male,US,United States,NAM,NRS,GU,13.444304,144.793731,Guam,37848
+Female,DZ,Algeria,AF,INF,GW,11.803749,-15.180413,Guinea-Bissau,62178
+Male,RU,Russian Federation,AS,ADH,GY,4.860416,-58.93018,Guyana,60939
+Male,NP,Nepal,AS,BHP,GZ,31.354676,34.308825,Gaza Strip,58767
+Female,BG,Bulgaria,EU,GOZ,HK,22.396428,114.109497,Hong Kong,58277
+Female,US,United States,NAM,PIB,HM,-53.08181,73.504158,Heard Island and McDonald Islands,443656
+Male,RU,Russian Federation,EU,NAL,HN,15.199999,-86.241905,Honduras,421802
+Female,US,United States,NAM,VNC,HR,45.1,15.2,Croatia,22776
+Female,ZA,South Africa,AF,TDT,HT,18.971187,-72.285215,Haiti,77658
+Female,IR,"Iran, Islamic Republic of",AS,LRR,HU,47.162494,19.503304,Hungary,68278
+Male,US,United States,NAM,SWF,ID,-0.789275,113.921327,Indonesia,7906
+Female,IT,Italy,EU,GOA,IE,53.41291,-8.24389,Ireland,8603
+Male,PG,Papua New Guinea,OC,BUA,IL,31.046051,34.851612,Israel,8234
+Male,HN,Honduras,NAM,RUY,IM,54.236107,-4.548056,Isle of Man,2770
+Male,US,United States,NAM,AYS,IN,20.593684,78.96288,India,12874
+Female,SD,Sudan,AF,NUD,IO,-6.343194,71.876519,British Indian Ocean Territory,12085
+Female,US,United States,NAM,HOT,IQ,33.223191,43.679291,Iraq,20
+Male,JP,Japan,AS,TRA,IR,32.427908,53.688046,Iran,30796
+Female,JP,Japan,AS,AXT,IS,64.963051,-19.020835,Iceland,29283
+Male,PG,Papua New Guinea,OC,HAZ,IT,41.87194,12.56738,Italy,1776
+Male,PG,Papua New Guinea,OC,TPI,JE,49.214439,-2.13125,Jersey,9537
+Female,DO,Dominican Republic,NAM,LRM,JM,18.109581,-77.297508,Jamaica,9672
+Male,US,United States,NAM,OWA,JO,30.585164,36.238414,Jordan,90
+Female,CN,China,AS,HDG,JP,36.204824,138.252924,Japan,11684
+Male,PG,Papua New Guinea,OC,MMV,KE,-0.023559,37.906193,Kenya,10771
+Male,IS,Iceland,EU,FAS,KG,41.20438,74.766098,Kyrgyzstan,2480
+Male,PG,Papua New Guinea,OC,OSE,KH,12.565679,104.990963,Cambodia,2211
+Female,CA,Canada,NAM,ZFM,KI,-3.370417,-168.734039,Kiribati,27472
+Male,GB,United Kingdom,EU,NCL,KM,-11.875001,43.872219,Comoros,26535
+Male,CN,China,AS,GHN,KN,17.357822,-62.782998,Saint Kitts and Nevis,11424
+Female,PG,Papua New Guinea,OC,PUI,KP,40.339852,127.510093,North Korea,34878
+Male,PG,Papua New Guinea,OC,LSJ,KR,35.907757,127.766922,South Korea,34105
+Male,CN,China,AS,WUT,KW,29.31166,47.481766,Kuwait,4204
+Male,IR,"Iran, Islamic Republic of",AS,BDH,KY,19.513469,-80.566956,Cayman Islands,3923
+Female,BR,Brazil,SAM,CQA,KZ,48.019573,66.923684,Kazakhstan,11230
+Female,VN,Viet Nam,AS,CAH,LA,19.85627,102.495496,Laos,11731
+Male,IN,India,AS,TEI,LB,33.854721,35.862285,Lebanon,4672
+Female,RU,Russian Federation,EU,KKQ,LC,13.909444,-60.978893,Saint Lucia,4006
+Female,BR,Brazil,SAM,MEU,LI,47.166,9.555373,Liechtenstein,7796
+Female,PG,Papua New Guinea,OC,AWB,LK,7.873054,80.771797,Sri Lanka,7737
+Female,SY,Syrian Arab Republic,AS,SOR,LR,6.428055,-9.429499,Liberia,40431
+Female,RO,Romania,EU,SBZ,LS,-29.609988,28.233608,Lesotho,39595
+Female,US,United States,NAM,PNU,LT,55.169438,23.881275,Lithuania,3804
+Male,AU,Australia,OC,CUY,LU,49.815273,6.129583,Luxembourg,8901
+Female,IR,"Iran, Islamic Republic of",AS,IIL,LV,56.879635,24.603189,Latvia,9020
+Female,BR,Brazil,SAM,0,LY,26.3351,17.228331,Libya,7541
+Male,AU,Australia,OC,HLV,MA,31.791702,-7.09262,Morocco,9333
+Female,US,United States,NAM,DHT,MC,43.750298,7.412841,Monaco,3804
+Female,AU,Australia,OC,XMY,MD,47.411631,28.369885,Moldova,6739
+Male,AU,Australia,OC,SGO,ME,42.708678,19.37439,Montenegro,5966
+Female,US,United States,NAM,DAL,MG,-18.766947,46.869107,Madagascar,162064
+Male,KY,Cayman Islands,NAM,CYB,MH,7.131474,171.184478,Marshall Islands,157700
+Female,DE,Germany,EU,WID,MK,41.608635,21.745275,Macedonia [FYROM],5233
+Female,MX,Mexico,NAM,REX,ML,17.570692,-3.996166,Mali,4866
+Female,PG,Papua New Guinea,OC,WTT,MM,21.913965,95.956223,Myanmar [Burma],4099
+Female,BG,Bulgaria,EU,SOF,MN,46.862496,103.846656,Mongolia,3376
+Male,BR,Brazil,SAM,GMS,MO,22.198745,113.543873,Macau,1735
+Male,US,United States,NAM,OWK,MP,17.33083,145.38469,Northern Mariana Islands,1560
+Female,US,United States,NAM,LSF,MQ,14.641528,-61.024174,Martinique,353
+Male,RU,Russian Federation,EU,UMS,MR,21.00789,-10.940835,Mauritania,751
+Male,AU,Australia,OC,DBY,MS,16.742498,-62.187366,Montserrat,18
+Female,SK,Slovakia,EU,LUE,MT,35.937496,14.375416,Malta,20312
+Female,NP,Nepal,AS,MEY,MU,-20.348404,57.552152,Mauritius,20084
+Female,US,United States,NAM,NIB,MV,3.202778,73.22068,Maldives,11753
+Male,US,United States,NAM,BJI,MW,-13.254308,34.301525,Malawi,9050
+Male,ID,Indonesia,AS,BMU,MX,23.634501,-102.552784,Mexico,14610
+Male,DE,Germany,EU,ZMG,MY,4.210484,101.975766,Malaysia,10972
+Female,DZ,Algeria,AF,QDJ,MZ,-18.665695,35.529562,Mozambique,97343
+Male,AU,Australia,OC,GTE,NA,-22.95764,18.49041,Namibia,97160
+Male,US,United States,NAM,SMN,NC,-20.904305,165.618042,New Caledonia,13524
+Female,PG,Papua New Guinea,OC,GVI,NE,17.607789,8.081666,Niger,11950
+Male,US,United States,NAM,ENA,NF,-29.040835,167.954712,Norfolk Island,17109
+Male,AU,Australia,OC,MGV,NG,9.081999,8.675277,Nigeria,17186
+Female,US,United States,NAM,SPI,NI,12.865416,-85.207229,Nicaragua,7923
+Female,IR,"Iran, Islamic Republic of",AS,AZD,NL,52.132633,5.291266,Netherlands,7751
+Female,ZA,South Africa,AF,ASS,NO,60.472024,8.468946,Norway,5572
+Male,PG,Papua New Guinea,OC,BWP,NP,28.394857,84.124008,Nepal,5268
+Male,BW,Botswana,AF,JWA,NR,-0.522778,166.931503,Nauru,4691
+Male,SA,Saudi Arabia,AS,TUI,NU,-19.054445,-169.867233,Niue,4355
+Male,EC,Ecuador,SAM,LGQ,NZ,-40.900557,174.885971,New Zealand,9191
+Male,US,United States,NAM,BCS,OM,21.512583,55.923255,Oman,9850
+Female,PG,Papua New Guinea,OC,WNU,PA,8.537981,-80.782127,Panama,9296
+Female,US,United States,NAM,AHT,PE,-9.189967,-75.015152,Peru,7913
+Male,BR,Brazil,SAM,AQA,PF,-17.679742,-149.406843,French Polynesia,9666
+Male,US,United States,NAM,AZA,PG,-6.314993,143.95555,Papua New Guinea,9881
+Male,CO,Colombia,SAM,ORC,PH,12.879721,121.774017,Philippines,8856
+Female,IN,India,AS,GOP,PK,30.375321,69.345116,Pakistan,7164
+Female,US,United States,NAM,VAD,PL,51.919438,19.145136,Poland,21512
+Male,ID,Indonesia,AS,SAE,PM,46.941936,-56.27111,Saint Pierre and Miquelon,21881
+Male,SA,Saudi Arabia,AS,QJB,PN,-24.703615,-127.439308,Pitcairn Islands,2725
+Female,US,United States,NAM,TRH,PR,18.220833,-66.590149,Puerto Rico,2546
+Female,CM,Cameroon,AF,KBI,PS,31.952162,35.233154,Palestinian Territories,7156
+Female,CA,Canada,NAM,YBI,PT,39.399872,-8.224454,Portugal,5946
+Male,MM,Myanmar,AS,PKK,PW,7.51498,134.58252,Palau,1552
+Female,MN,Mongolia,AS,HVD,PY,-23.442503,-58.443832,Paraguay,3382
+Female,DE,Germany,EU,RLG,QA,25.354826,51.183884,Qatar,56501
+Male,DZ,Algeria,AF,MZW,RE,-21.115141,55.536384,R??union,56674
+Male,CA,Canada,NAM,YSN,RO,45.943161,24.96676,Romania,7107
+Male,US,United States,NAM,BPA,RS,44.016521,21.005859,Serbia,6522
+Male,DM,Dominica,NAM,DCF,RU,61.52401,105.318756,Russia,12856
+Female,ID,Indonesia,AS,TTE,RW,-1.940278,29.873888,Rwanda,8718
+Male,CO,Colombia,SAM,BOG,SA,23.885942,45.079162,Saudi Arabia,19192
+Male,PY,Paraguay,SAM,OLK,SB,-9.64571,160.156194,Solomon Islands,17118
+Male,CA,Canada,NAM,YGQ,SC,-4.679574,55.491977,Seychelles,7052
+Male,IL,Israel,AS,MTZ,SD,12.862807,30.217636,Sudan,6652
+Female,CA,Canada,NAM,YBR,SE,60.128161,18.643501,Sweden,102899
+Male,HR,Croatia,EU,RJK,SG,1.352083,103.819836,Singapore,103188
+Female,US,United States,NAM,LEB,SH,-24.143474,-10.030696,Saint Helena,3672
+Male,AR,Argentina,SAM,VCF,SI,46.151241,14.995463,Slovenia,3570
+Male,VU,Vanuatu,OC,FTA,SJ,77.553604,23.670272,Svalbard and Jan Mayen,4720
+Male,AU,Australia,OC,NYN,SK,48.669026,19.699024,Slovakia,4717
+Male,GT,Guatemala,NAM,TKM,SL,8.460555,-11.779889,Sierra Leone,7357
+Male,RU,Russian Federation,EU,TLK,SM,43.94236,12.457777,San Marino,5128
+Male,CA,Canada,NAM,YEY,SN,14.497401,-14.452362,Senegal,42622
+Female,US,United States,NAM,BGD,SO,5.152149,46.199616,Somalia,44508
+Male,NZ,New Zealand,OC,KAT,SR,3.919305,-56.027783,Suriname,40712
+Female,US,United States,NAM,OKM,ST,0.18636,6.613081,S?o Tom?? and Pr??ncipe,40322
+Female,AU,Australia,OC,KAX,SV,13.794185,-88.89653,El Salvador,61872
+Male,AU,Australia,OC,MXU,SY,34.802075,38.996815,Syria,61768
+Male,US,United States,NAM,EKI,SZ,-26.522503,31.465866,Swaziland,55842
+Female,HR,Croatia,EU,OSI,TC,21.694025,-71.797928,Turks and Caicos Islands,27930

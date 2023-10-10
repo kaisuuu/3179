@@ -1,4 +1,4 @@
-Gender,Airport_Country_Code,Country_Name,Airport_Continent,Arrival_Airport,Country,Latitude,Longitude,Name,Adjusted Passenger Count
+Gender,Airport_Country_Code,Country_Name,Airport_Continent,Arrival_Airport,Country,Latitude,Longitude,Name,Adjusted_Passenger_Count
 Female,US,United States,NAM,CXF,AD,42.546245,1.601554,Andorra,27271
 Male,CA,Canada,NAM,YCO,AE,23.424076,53.847818,United Arab Emirates,29131
 Male,FR,France,EU,GNB,AF,33.93911,67.709953,Afghanistan,10830

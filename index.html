@@ -1,586 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Airport Data</title>
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        .visualization {
-            margin-top: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-        }
-
-        h1 {
-            font-size: 24px;
-        }
-
-        h2 {
-            font-size: 20px;
-            color: #333;
-            margin: 0 0 10px 0;
-        }
-
-        .description {
-            font-style: italic;
-            color: #666;
-        }
-
-        .chart-description {
-            font-size: 16px;
-        }
-    </style>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+    
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 </head>
-
 <body>
-    <header>
-        <h1>Global Airport Data</h1>
-    </header>
-    <div class="container">
-        <div class="visualization" id="vis1">
-            <h2>Map of Airports</h2>
-            <p class="description">Explore airports around the world, filter by passenger count and continent.</p>
-            <div class="chart-description">
-                This interactive map displays airports around the world. Use the options to filter the airports based on
-                passenger count and continent.
-            </div>
-        </div>
-        <hr>
-        <div class="visualization" id="vis2">
-            <h2>Airport Busyness</h2>
-            <p class="description">Visualize airport busyness using circles on a world map.</p>
-            <div class="chart-description">
-                This map visualizes airport busyness using circles on a world map. The size and color of the circles
-                represent airport busyness levels.
-            </div>
-        </div>
-        <hr>
-        <div class "visualization" id="vis3">
-            <h2>Passenger Count by Continent</h2>
-            <p class="description">Compare total adjusted passenger counts by continent using bar and line charts.</p>
-            <div class="chart-description">
-                Compare the total adjusted passenger counts by continent using both bar and line charts in this
-                visualization.
-            </div>
-        </div>
-    </div>
 
-    <script type="text/javascript">
-        // Vega-Lite Specification for Visualization 1 (spec1)
-        var spec1 = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "width": 800,
-            "height": 600,
-            "title": "Global Airport Activity",
-            "data": {
-                "url": "https://raw.githubusercontent.com/kaisuuu/3179/main/Airline%20Dataset1.csv"
-            },
-            "params": [
-                {
-                    "name": "Adjusted_Passenger_Count_Above",
-                    "value": 0,
-                    "bind": {
-                        "input": "range",
-                        "min": 0,
-                        "max": 10000,
-                        "step": 1000,
-                        "name": "Minimum Adjusted Passenger Count: "
-                    }
-                },
-                {
-                    "name": "Airport_Continent_Selection",
-                    "bind": {
-                        "input": "select",
-                        "options": [
-                            null,
-                            "AF",
-                            "AS",
-                            "EU",
-                            "NAM",
-                            "OC",
-                            "SAM"
-                        ],
-                        "labels": [
-                            "Show All",
-                            "AF",
-                            "AS",
-                            "EU",
-                            "NAM",
-                            "OC",
-                            "SAM"
-                        ],
-                        "name": "Continent Selection: "
-                    }
-                }
-            ],
-            "transform": [
-                { "filter": "datum.Adjusted_Passenger_Count > Adjusted_Passenger_Count_Above" },
-                {
-                    "filter": "Airport_Continent_Selection == null || datum.Airport_Continent == Airport_Continent_Selection"
-                }
-            ],
-            "encoding": {
-                "x": {
-                    "field": "Longitude",
-                    "type": "quantitative",
-                    "title": "Longitude"
-                },
-                "y": {
-                    "field": "Latitude",
-                    "type": "quantitative",
-                    "title": "Latitude"
-                },
-                "size": {
-                    "field": "Adjusted_Passenger_Count",
-                    "type": "quantitative",
-                    "title": "Adjusted Passenger Count",
-                    "scale": { "type": "log" }
-                },
-                "color": {
-                    "field": "Airport_Continent",
-                    "type": "nominal",
-                    "title": "Airport Continent"
-                },
-                "tooltip": [
-                    { "field": "Name", "type": "nominal", "title": "Airport Name" },
-                    { "field": "Adjusted_Passenger_Count", "type": "quantitative", "title": "Adjusted Passenger Count", "format": "," },
-                    { "field": "Country_Name", "type": "nominal", "title": "Country" },
-                    { "field": "Airport_Country_Code", "type": "nominal", "title": "Country Code" }
-                ]
-            },
-            "mark": "circle"
-        };
+<section>
+    <h2>Introduction</h2>
+    <p>
+        This dashboard provides a comprehensive view of the world's population trends, distribution, and growth. Drawing from a rich dataset that spans multiple years, the visualizations offer insights into how populations are distributed across countries, how they've grown over time, and more.
+    </p>
+</section>
 
-        var spec2 = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "title": "Global Airport Activity",
-            "width": 800,
-            "height": 500,
-            "layer": [
-                {
-                    "data": {
-                        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
-                        "format": { "type": "topojson", "feature": "ne_110m_admin_0_countries" }
-                    },
-                    "projection": { "type": "equalEarth" },
-                    "mark": { "type": "geoshape", "fill": "lightgray", "stroke": "white" },
-                    "encoding": {
-                        "tooltip": { "field": "properties.NAME", "type": "nominal", "title": "Country" }
-                    }
-                },
-                {
-                    "data": { "url": "https://raw.githubusercontent.com/kaisuuu/3179/main/Airline%20Dataset1.csv" },
-                    "transform": [
-                        { "aggregate": [{ "op": "count", "as": "busyness" }], "groupby": ["Airport_Country_Code"] },
-                        {
-                            "lookup": "Airport_Country_Code",
-                            "from": {
-                                "data": { "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/data/countryInfo.csv" },
-                                "key": "country",
-                                "fields": ["latitude", "longitude", "name"]
-                            }
-                        }
-                    ],
-                    "mark": "circle",
-                    "encoding": {
-                        "longitude": { "field": "longitude", "type": "quantitative" },
-                        "latitude": { "field": "latitude", "type": "quantitative" },
-                        "size": { "field": "busyness", "type": "quantitative", "legend": { "title": "Airport Busyness", "orient": "top-left" } },
-                        "color": { "field": "busyness", "type": "quantitative", "scale": { "scheme": "reds" }, "legend": { "title": "Busyness Level", "orient": "bottom-right" } },
-                        "tooltip": [
-                            { "field": "name", "type": "nominal", "title": "Country" },
-                            { "field": "busyness", "type": "quantitative", "title": "Airport Busyness" }
-                        ]
-                    }
-                }
-            ],
-            "config": { "view": { "stroke": "transparent" } }
-        };
-        var spec3 = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "data": {
-                "url": "https://raw.githubusercontent.com/kaisuuu/3179/main/Airline%20Dataset1.csv"
-            },
-            "layer": [
-                {
-                    "mark": {
-                        "type": "bar",
-                        "tooltip": true
-                    },
-                    "encoding": {
-                        "x": {
-                            "field": "Airport_Continent",
-                            "type": "nominal",
-                            "title": "Continent"
-                        },
-                        "y": {
-                            "aggregate": "sum",
-                            "field": "Adjusted_Passenger_Count",
-                            "type": "quantitative",
-                            "title": "Total Adjusted Passenger Count"
-                        },
-                        "color": {
-                            "value": "steelblue"
-                        }
-                    }
-                },
-                {
-                    "mark": {
-                        "type": "line",
-                        "tooltip": true,
-                        "color": "red"
-                    },
-                    "encoding": {
-                        "x": {
-                            "field": "Airport_Continent",
-                            "type": "nominal"
-                        },
-                        "y": {
-                            "aggregate": "sum",
-                            "field": "Adjusted_Passenger_Count",
-                            "type": "quantitative"
-                        }
-                    }
-                }
-            ],
-            "title": "Total Adjusted Passenger Count by Continent",
-            "width": 500,
-            "height": 300,
-            "config": {
-                "view": {
-                    "stroke": "transparent"
-                }
-            }
-        };
+<div id="mapchart"></div>
+<script type="text/javascript">
+    var specMap = "js/map.json";
+    vegaEmbed('#mapchart', specMap).then(function(result) {
+    }).catch(console.error);
+</script>
+<p>
+    The map visualization showcases the geographical distribution of populations across the globe. Countries with denser shades have higher populations. This view allows us to quickly identify the most populated regions in the world.
+</p>
 
-        // Embed each visualization in its respective div
-        vegaEmbed('#vis1', spec1).catch(console.error);
-        vegaEmbed('#vis2', spec2).catch(console.error);
-        vegaEmbed('#vis3', spec3).catch(console.error);
-    </script>
+<div id="barchart"></div>
+<script type="text/javascript">
+    var specBar = "js/bar.json";
+    vegaEmbed('#barchart', specBar).then(function(result) {
+    }).catch(console.error);
+</script>
+<p>
+    The bar chart depicts the top countries by population. It provides a clear ranking and allows for easy comparison between countries. From this chart, we can identify which countries have the highest populations.
+</p>
+
+<div id="linechart"></div>
+<script type="text/javascript">
+    var specLine = "js/linechart.json";
+    vegaEmbed('#linechart', specLine).then(function(result) {
+    }).catch(console.error);
+</script>
+<p>
+    The line chart illustrates the trend of population growth over the years. It gives insights into how populations in major countries have grown, remained stable, or declined over the decades.
+</p>
+
+<div id="scatterchart"></div>
+<script type="text/javascript">
+    var specScatter = "js/scotpoint.json";
+    vegaEmbed('#scatterchart', specScatter).then(function(result) {
+    }).catch(console.error);
+</script>
+<p>
+    The scatter plot offers insights into the relationship between different population metrics. It can help identify patterns or anomalies in the data.
+</p>
+
+<div id="piechart"></div>
+<script type="text/javascript">
+    var specPie = "js/piechart.json";
+    vegaEmbed('#piechart', specPie).then(function(result) {
+    }).catch(console.error);
+</script>
+<p>
+    The pie chart provides a visual distribution of the world's population across major countries. It offers a perspective on how the global population is spread out.
+</p>
+
+<section>
+  <h2>Conclusion</h2>
+  <p>
+      Through these visualizations, we gain a deeper understanding of global population trends. It's evident that certain countries dominate in terms of population, and the growth trends provide valuable insights into how global demographics might shift in the future. The visualizations serve as a useful tool for policymakers, researchers, and anyone interested in global population studies.
+  </p>
+</section>
 
 
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Airport Data</title>
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        .visualization {
-            margin-top: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-        }
-
-        h1 {
-            font-size: 24px;
-        }
-
-        h2 {
-            font-size: 20px;
-            color: #333;
-            margin: 0 0 10px 0;
-        }
-
-        .description {
-            font-style: italic;
-            color: #666;
-        }
-
-        .chart-description {
-            font-size: 16px;
-        }
-    </style>
-</head>
-
-<body>
-    <header>
-        <h1>Global Airport Data</h1>
-    </header>
-    <div class="container">
-        <div class="visualization" id="vis1">
-            <h2>Map of Airports</h2>
-            <p class="description">Explore airports around the world, filter by passenger count and continent.</p>
-            <div class="chart-description">
-                This interactive map displays airports around the world. Use the options to filter the airports based on
-                passenger count and continent.
-            </div>
-        </div>
-        <hr>
-        <div class="visualization" id="vis2">
-            <h2>Airport Busyness</h2>
-            <p class="description">Visualize airport busyness using circles on a world map.</p>
-            <div class="chart-description">
-                This map visualizes airport busyness using circles on a world map. The size and color of the circles
-                represent airport busyness levels.
-            </div>
-        </div>
-        <hr>
-        <div class="visualization" id="vis3">
-            <h2>Passenger Count by Continent</h2>
-            <p class="description">Compare total adjusted passenger counts by continent using bar and line charts.</p>
-            <div class "chart-description">
-                Compare the total adjusted passenger counts by continent using both bar and line charts in this
-                visualization.
-            </div>
-        </div>
-    </div>
-
-    <script type="text/javascript">
-                var spec1 = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "width": 800,
-            "height": 600,
-            "title": "Global Airport Activity",
-            "data": {
-                "url": "https://raw.githubusercontent.com/kaisuuu/3179/main/Airline%20Dataset1.csv"
-            },
-            "params": [
-                {
-                    "name": "Adjusted_Passenger_Count_Above",
-                    "value": 0,
-                    "bind": {
-                        "input": "range",
-                        "min": 0,
-                        "max": 10000,
-                        "step": 1000,
-                        "name": "Minimum Adjusted Passenger Count: "
-                    }
-                },
-                {
-                    "name": "Airport_Continent_Selection",
-                    "bind": {
-                        "input": "select",
-                        "options": [
-                            null,
-                            "AF",
-                            "AS",
-                            "EU",
-                            "NAM",
-                            "OC",
-                            "SAM"
-                        ],
-                        "labels": [
-                            "Show All",
-                            "AF",
-                            "AS",
-                            "EU",
-                            "NAM",
-                            "OC",
-                            "SAM"
-                        ],
-                        "name": "Continent Selection: "
-                    }
-                }
-            ],
-            "transform": [
-                { "filter": "datum.Adjusted_Passenger_Count > Adjusted_Passenger_Count_Above" },
-                {
-                    "filter": "Airport_Continent_Selection == null || datum.Airport_Continent == Airport_Continent_Selection"
-                }
-            ],
-            "encoding": {
-                "x": {
-                    "field": "Longitude",
-                    "type": "quantitative",
-                    "title": "Longitude"
-                },
-                "y": {
-                    "field": "Latitude",
-                    "type": "quantitative",
-                    "title": "Latitude"
-                },
-                "size": {
-                    "field": "Adjusted_Passenger_Count",
-                    "type": "quantitative",
-                    "title": "Adjusted Passenger Count",
-                    "scale": { "type": "log" }
-                },
-                "color": {
-                    "field": "Airport_Continent",
-                    "type": "nominal",
-                    "title": "Airport Continent"
-                },
-                "tooltip": [
-                    { "field": "Name", "type": "nominal", "title": "Airport Name" },
-                    { "field": "Adjusted_Passenger_Count", "type": "quantitative", "title": "Adjusted Passenger Count", "format": "," },
-                    { "field": "Country_Name", "type": "nominal", "title": "Country" },
-                    { "field": "Airport_Country_Code", "type": "nominal", "title": "Country Code" }
-                ]
-            },
-            "mark": "circle"
-        };
-
-        var spec2 = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "title": "Global Airport Activity",
-            "width": 800,
-            "height": 500,
-            "layer": [
-                {
-                    "data": {
-                        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
-                        "format": { "type": "topojson", "feature": "ne_110m_admin_0_countries" }
-                    },
-                    "projection": { "type": "equalEarth" },
-                    "mark": { "type": "geoshape", "fill": "lightgray", "stroke": "white" },
-                    "encoding": {
-                        "tooltip": { "field": "properties.NAME", "type": "nominal", "title": "Country" }
-                    }
-                },
-                {
-                    "data": { "url": "https://raw.githubusercontent.com/kaisuuu/3179/main/Airline%20Dataset1.csv" },
-                    "transform": [
-                        { "aggregate": [{ "op": "count", "as": "busyness" }], "groupby": ["Airport_Country_Code"] },
-                        {
-                            "lookup": "Airport_Country_Code",
-                            "from": {
-                                "data": { "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/data/countryInfo.csv" },
-                                "key": "country",
-                                "fields": ["latitude", "longitude", "name"]
-                            }
-                        }
-                    ],
-                    "mark": "circle",
-                    "encoding": {
-                        "longitude": { "field": "longitude", "type": "quantitative" },
-                        "latitude": { "field": "latitude", "type": "quantitative" },
-                        "size": { "field": "busyness", "type": "quantitative", "legend": { "title": "Airport Busyness", "orient": "top-left" } },
-                        "color": { "field": "busyness", "type": "quantitative", "scale": { "scheme": "reds" }, "legend": { "title": "Busyness Level", "orient": "bottom-right" } },
-                        "tooltip": [
-                            { "field": "name", "type": "nominal", "title": "Country" },
-                            { "field": "busyness", "type": "quantitative", "title": "Airport Busyness" }
-                        ]
-                    }
-                }
-            ],
-            "config": { "view": { "stroke": "transparent" } }
-        };
-        var spec3 = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "data": {
-                "url": "https://raw.githubusercontent.com/kaisuuu/3179/main/Airline%20Dataset1.csv"
-            },
-            "layer": [
-                {
-                    "mark": {
-                        "type": "bar",
-                        "tooltip": true
-                    },
-                    "encoding": {
-                        "x": {
-                            "field": "Airport_Continent",
-                            "type": "nominal",
-                            "title": "Continent"
-                        },
-                        "y": {
-                            "aggregate": "sum",
-                            "field": "Adjusted_Passenger_Count",
-                            "type": "quantitative",
-                            "title": "Total Adjusted Passenger Count"
-                        },
-                        "color": {
-                            "value": "steelblue"
-                        }
-                    }
-                },
-                {
-                    "mark": {
-                        "type": "line",
-                        "tooltip": true,
-                        "color": "red"
-                    },
-                    "encoding": {
-                        "x": {
-                            "field": "Airport_Continent",
-                            "type": "nominal"
-                        },
-                        "y": {
-                            "aggregate": "sum",
-                            "field": "Adjusted_Passenger_Count",
-                            "type": "quantitative"
-                        }
-                    }
-                }
-            ],
-            "title": "Total Adjusted Passenger Count by Continent",
-            "width": 500,
-            "height": 300,
-            "config": {
-                "view": {
-                    "stroke": "transparent"
-                }
-            }
-        };
-
-        // Embed each visualization in its respective div
-        vegaEmbed('#vis1', spec1).catch(console.error);
-        vegaEmbed('#vis2', spec2).catch(console.error);
-        vegaEmbed('#vis3', spec3).catch(console.error);
-    </script>
-
-    </script>
 </body>
-
 </html>

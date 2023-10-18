@@ -1,0 +1,44 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Population Density vs Growth Rate (Top 10 Countries by Population in 2022)",
+    "description": "A scatter plot showing the relationship between population density and growth rate for the top 10 countries by population in 2022.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/kaisuuu/3179/main/dataset/World%20Population%20Live%20Dataset.csv"
+    },
+    "width": 800,
+    "height": 400,
+    "transform": [
+      {
+        "window": [{"op": "rank", "field": "2022", "as": "rank"}],
+        "sort": [{"field": "2022", "order": "descending"}]
+      },
+      {"filter": "datum.rank <= 10"},
+      {"filter": "isValid(datum.GrowthRate) && datum.GrowthRate !== 'Infinity' && datum.GrowthRate !== '-Infinity'"},
+      {"filter": "isValid(datum['Density (per km²)'])"}
+    ],
+    "encoding": {
+      "x": {
+        "field": "Density (per km²)",
+        "type": "quantitative",
+        "axis": {"title": "Population Density (per km²)"}
+      },
+      "y": {
+        "field": "GrowthRate",
+        "type": "quantitative",
+        "axis": {"title": "Growth Rate (%)", "format": ".2f"}
+      },
+      "color": {
+        "field": "name",
+        "type": "nominal",
+        "scale": {"scheme": "tableau20"},
+        "legend": {"title": "Country"}
+      },
+      "tooltip": [
+        {"field": "name", "type": "nominal", "title": "Country"},
+        {"field": "Density (per km²)", "type": "quantitative", "title": "Population Density (per km²)"},
+        {"field": "GrowthRate", "type": "quantitative", "title": "Growth Rate (%)", "format": ".2f"}
+      ]
+    },
+    "mark": "circle"
+  }
+  
